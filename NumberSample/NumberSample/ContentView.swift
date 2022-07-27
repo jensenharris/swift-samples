@@ -62,7 +62,7 @@ struct ContentView: View {
     init(numberFormatter: NumberFormatterProtocol = NumberFormatter()) {
         self.numberFormatter = numberFormatter
         self.numberFormatter.numberStyle = .currency
-        self.numberFormatter.maximumFractionDigits = 2
+        self.numberFormatter.maximumFractionDigits = 0
     }
 
     var body: some View {
